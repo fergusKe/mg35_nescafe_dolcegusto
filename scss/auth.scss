@@ -1,0 +1,32 @@
+.form-group {
+  label {
+		width: 208px;
+  }
+	.form-control {
+		float: right;
+		width: 320px;
+	}
+}
+
+.reSend-btn {
+	width: 270px;
+	margin-top: 30px;
+	a {
+		background-color: #7a51b7;
+		letter-spacing: 3px;
+	}
+}
+
+.countdown-wrap {
+	margin-top: 50px;
+	.countdown {
+		font-size: 50px;
+		color: #d61247;
+		text-align: center;
+		font-weight: 700;
+		margin: 10px 0;
+	}
+	.txt {
+		text-align: center;
+	}
+}

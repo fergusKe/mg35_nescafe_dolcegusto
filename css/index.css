@@ -1,0 +1,65 @@
+.sub-title {
+  display: inline-block;
+  font-size: 24px;
+  color: #FFF;
+  background: #734bb1;
+  border-radius: 19px;
+  padding: 8px 16px;
+  margin: 25px 0 10px 0; }
+
+.notice {
+  text-align: center;
+  margin-top: 16px; }
+  .notice label {
+    cursor: pointer; }
+
+#checkNotice {
+  position: relative;
+  top: 2px;
+  width: 20px;
+  height: 20px; }
+
+svg {
+  border: none;
+  display: block; }
+
+.checkNoticeLabel {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .checkNoticeLabel svg {
+    width: 25px;
+    height: 25px;
+    float: left; }
+    .checkNoticeLabel svg rect, .checkNoticeLabel svg polyline {
+      fill: none;
+      stroke-width: 4; }
+    .checkNoticeLabel svg rect {
+      stroke: #D7D7D7; }
+
+input#checkNotice {
+  display: none; }
+  input#checkNotice:checked + label svg rect, input#checkNotice:checked + label svg polyline {
+    stroke: #DE211B; }
+  input#checkNotice:checked + label svg polyline {
+    -webkit-animation: checked 0.5s ease forwards;
+    animation: checked 0.5s ease forwards;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50; }
+
+@-webkit-keyframes checked {
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes checked {
+  to {
+    stroke-dashoffset: 0; } }
+
+@media only screen and (max-width: 640px) {
+  .sub-title {
+    padding: 12px 16px 8px; } }

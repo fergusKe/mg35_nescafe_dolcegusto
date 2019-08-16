@@ -1,0 +1,42 @@
+@import 'helpers/variables';
+@import 'helpers/mixins';
+
+.path {
+	#other {
+		display: none;
+		margin-top: 15px;
+	}
+}
+
+.auth {
+	input {
+		width: 220px;
+	}
+	.authCode {
+		float: right;
+		vertical-align: top;
+		text-align: center;
+		a {
+			color: $a-color;
+			text-decoration: underline;
+			font-size: 20px;
+		}
+	}
+}
+
+.btn {
+	a {
+		background-position: 95% center;
+	}
+}
+
+.submit-btn {
+	width: 220px;
+}
+
+.member-btn {
+	width: 295px;
+	a {
+		background-color: $btn-purple;
+	}
+}

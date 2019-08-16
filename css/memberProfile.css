@@ -1,0 +1,22 @@
+.path #other {
+  display: none;
+  margin-top: 15px; }
+
+.birthday #birthday-year {
+  width: 134px; }
+
+.birthday #birthday-month {
+  width: 100px;
+  margin-left: 4px; }
+
+.birthday #birthday-day {
+  float: right;
+  width: 100px; }
+
+.btn-row {
+  margin-top: 30px; }
+
+.btn {
+  width: 258px; }
+  .btn a {
+    border-radius: 46px; }

@@ -1,0 +1,26 @@
+.path #other {
+  display: none;
+  margin-top: 15px; }
+
+.auth input {
+  width: 220px; }
+
+.auth .authCode {
+  float: right;
+  vertical-align: top;
+  text-align: center; }
+  .auth .authCode a {
+    color: #de9467;
+    text-decoration: underline;
+    font-size: 20px; }
+
+.btn a {
+  background-position: 95% center; }
+
+.submit-btn {
+  width: 220px; }
+
+.member-btn {
+  width: 295px; }
+  .member-btn a {
+    background-color: #7a51b7; }
